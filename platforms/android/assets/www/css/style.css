@@ -1,0 +1,195 @@
+body {
+    font-family:  'Lato', serif;
+}
+
+.bar-positive {
+    color: #00BCD4;
+}
+.bar-footer {
+  overflow: visible !important;
+}
+
+.bar-footer input {
+  resize: none;
+  height: 40px;
+}
+
+.chat-img {
+  width: 100%
+  height: 100%;
+}
+
+#welcome-view {
+    background: url(../img/welcome/bg01.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.logo-welcome {
+    width: 120px;
+    height: 120px;
+    margin: 100px auto 60px auto;
+    background: url(../img/welcome/Prism-icon1.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.login-btns {
+    width: 250px;
+    margin: 0 auto 0 auto;
+}
+
+#btn-reg {
+    float: right;
+}
+
+#login-divider {
+    margin: 40px 0 10px 0;
+}
+
+#footer {
+    background: #5A5A5A;
+    opacity: 0.4;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#btn-reg, #btn-login {
+    color: white;
+}
+
+.em-small {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bar .title {
+    font-weight: bold;
+    text-align: center !important;
+
+}
+
+.em-padding-header {
+    padding: 2px;
+}
+
+.profile-container {
+    position: relative;
+    padding: 35px;
+    background-color:lightblue;
+}
+
+.profile-background {
+    position:absolute;
+    top:-20%;
+    left:-20%;
+    width:140%;
+    height:140%;
+    z-index:1;
+    background-size: cover;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    opacity: 0.65;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.em-gender .item-checkbox {
+    padding-left: 50px !important;
+    font-size: 14px;
+    border-width: 0;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+.platform-android ion-popover-view.fit {
+    margin-top: 10px !important;
+}
+
+
+
+.larger {
+    font-size: 120px;
+}
+
+
+/** Error Messages **/
+
+/** Styling for the username field **/
+label.item.has-error {
+  border-bottom: 2px solid red;
+}
+
+/** Styling for the password field when an error exists**/
+label.item.has-error-lr {
+  border-bottom: 2px solid red;
+  font-family: 'Roboto', serif;
+}
+
+/** Styling for the password field when an error has been resolved**/
+label.item.valid-lr {
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  font-family: 'Roboto', serif;
+}
+
+/** Styling for the error text and container **/
+.form-errors {
+  margin: 5px 0
+  font-family: 'Roboto', serif;
+}
+.form-error {
+  font-family: 'Roboto', serif;
+  padding: 2px 0 2px 16px;
+  color: red;
+  font-size: 14px
+  
+}
+
+.button-float{
+    border-radius: 20px;
+   -webkit-border-radius: 20px;
+   width: 100%;
+   height: 50px;
+   background-color: #03A9F4;
+   font-family: 'Roboto', serif;
+   border:hidden;
+}
+
+.input-label {
+    color: white;
+}
+
+#labelEmail {
+    border:hidden;
+}
+#labelPass {
+    border:hidden;
+}
+
+input,.item-input-wrapper {
+  background-color: #f4f4f4 !important;
+}
+/* Empty. Add your own CSS if you like */
+

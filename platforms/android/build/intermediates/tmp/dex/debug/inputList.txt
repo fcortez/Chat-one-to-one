@@ -1,0 +1,2 @@
+C:\Users\Felipin\prisma-project\platforms\android\build\intermediates\classes\debug
+C:\Users\Felipin\prisma-project\platforms\android\build\intermediates\pre-dexed\debug\classes-ee7f0ef0b8c1c26e8197f3073b1a317fc7bee748.jar
