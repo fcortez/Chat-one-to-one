@@ -1,0 +1,382 @@
+body {
+    font-family:  'Lato', serif;
+}
+
+.bar-positive {
+    color: #00BCD4;
+}
+
+
+
+.bar-footer textarea {
+  resize: none;
+  height: 25px;
+}
+
+/* fixes an ios bug bear */
+button.ion-android-send {
+  padding-top: 2px;
+}
+
+/* add this to keep your footer buttons down 
+at the bottom as the textarea resizes */
+.footer-btn-wrap {
+  position: relative; 
+  height: 100%; 
+  width: 50px; 
+  top: 7px;
+}
+
+.footer-btn {
+  position: absolute !important; 
+  bottom: 0;
+}
+
+img.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+
+img.profile-pic.left {
+  left: 10px;
+}
+
+img.profile-pic.right {
+  right: 10px;
+}
+
+.ion-email {
+  float: right;
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+.message {
+  font-size: 14px;
+}
+
+.message-detail {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.bar.item-input-inset .item-input-wrapper input {
+  width: 100% !important;
+}
+
+.message-wrapper {
+  position: relative;
+}
+
+.message-wrapper:last-child {
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 18px;
+  position: relative;
+  margin: 10px;
+  max-width: 80%;
+}
+
+.chat-bubble:before {
+  content: "\00a0";
+  display: block;
+  height: 16px;
+  width: 9px;
+  position: absolute;
+  bottom: -7.5px;
+}
+
+.chat-bubble.left {
+  background-color: #e6e5eb;
+  float: left;
+  margin-left: 55px;
+}
+
+.chat-bubble.left:before {
+  background-color: #e6e5eb;
+  left: 10px;
+  -webkit-transform: rotate(70deg) skew(5deg);
+}
+
+.chat-bubble.right {
+  background-color: #158ffe;
+  color: #fff;
+  float: right;
+  margin-right: 55px;
+}
+
+.chat-bubble.right:before {
+  background-color: #158ffe;
+  right: 10px;
+  -webkit-transform: rotate(118deg) skew(-5deg);
+}
+
+.chat-bubble.right a.autolinker {
+  color: #fff;
+  font-weight: bold;
+}
+
+.user-messages-top-icon {
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  right: 5px;
+}
+
+.msg-header-username {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+}
+
+input, textarea, .item-input, .item-input-wrapper {
+  background-color: #f4f4f4 !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cf {
+  clear: both !important;
+}
+
+a.autolinker {
+  color: #3b88c3;
+  text-decoration: none;
+}
+
+/* loading */
+.loader-center {
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loader .ion-loading-c {
+  font-size: 64px;
+}
+
+
+
+
+.bar-footer input {
+  resize: none;
+  height: 40px;
+}
+
+.chat-img {
+  width: 100%
+  height: 100%;
+}
+
+#welcome-view {
+    background: url(../img/welcome/bg01.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.logo-welcome {
+    width: 120px;
+    height: 120px;
+    margin: 100px auto 60px auto;
+    background: url(../img/welcome/Prism-icon1.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.login-btns {
+    width: 250px;
+    margin: 0 auto 0 auto;
+}
+
+#btn-reg {
+    float: right;
+}
+
+#login-divider {
+    margin: 40px 0 10px 0;
+}
+
+#footer {
+    background: #5A5A5A;
+    opacity: 0.4;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#btn-reg, #btn-login {
+    color: white;
+}
+
+.em-small {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bar .title {
+    font-weight: bold;
+    text-align: center !important;
+
+}
+
+.em-padding-header {
+    padding: 2px;
+}
+
+.profile-container {
+    position: relative;
+    padding: 35px;
+    background-color:lightblue;
+}
+
+.profile-background {
+    position:absolute;
+    top:-20%;
+    left:-20%;
+    width:140%;
+    height:140%;
+    z-index:1;
+    background-size: cover;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    opacity: 0.65;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.em-gender .item-checkbox {
+    padding-left: 50px !important;
+    font-size: 14px;
+    border-width: 0;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+.platform-android ion-popover-view.fit {
+    margin-top: 10px !important;
+}
+
+
+
+.larger {
+    font-size: 120px;
+}
+
+
+/** Error Messages **/
+
+/** Styling for the username field **/
+label.item.has-error {
+  border-bottom: 2px solid red;
+}
+
+/** Styling for the password field when an error exists**/
+label.item.has-error-lr {
+  border-bottom: 2px solid red;
+  font-family: 'Roboto', serif;
+}
+
+/** Styling for the password field when an error has been resolved**/
+label.item.valid-lr {
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  font-family: 'Roboto', serif;
+}
+
+/** Styling for the error text and container **/
+.form-errors {
+  margin: 5px 0
+  font-family: 'Roboto', serif;
+}
+.form-error {
+  font-family: 'Roboto', serif;
+  padding: 2px 0 2px 16px;
+  color: red;
+  font-size: 14px
+  
+}
+
+.button-float{
+    border-radius: 20px;
+   -webkit-border-radius: 20px;
+   width: 100%;
+   height: 50px;
+   background-color: #03A9F4;
+   font-family: 'Roboto', serif;
+   border:hidden;
+}
+
+.input-label {
+    color: white;
+}
+
+#labelEmail {
+    border:hidden;
+}
+#labelPass {
+    border:hidden;
+}
+
+input,.item-input-wrapper {
+  background-color: #f4f4f4 !important;
+}
+/* Empty. Add your own CSS if you like */
+
